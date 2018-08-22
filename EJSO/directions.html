@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Extreme Jetski of Orlando</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header>
+		<div id="navbar" class="topnav">
+			<a href="index.html" id="logo"><img src="image/ejso_logo.png" class="ejso_logo active"></a>
+			<nav>
+				<a href="index.html" id="menu-icon"></a>
+				<ul>
+					<li><a href="visit.html" class="current navs">Visit</a></li>
+					<li><a href="rentals.html" class="navs">Rentals</a></li>
+					<li><a href="directions.html" class="navs">Directions</a></li>
+					<li><a href="about.html" class="navs">About Us</a></li>
+					<li>
+						<span class="soca soch">
+							<a href="https://www.facebook.com/Extreme-Jet-Ski-of-Orlando-118763888154618/"><img src="image/social-buttons/facebook-logo-grey.png" class="socb" alt="Check out our Facebook!"></a>
+							<a href="https://www.instagram.com/extremejetskioforlando/"><img src="image/social-buttons/instagram-logo-grey.png" class="socb" alt="Check out our Instagram!"></a>
+							<a href="https://www.tripadvisor.com/Attraction_Review-g34352-d3850063-Reviews-Extreme_Jet_Ski_of_Orlando-Kissimmee_Florida.html"><img src="image/social-buttons/trip-advisor-logo-grey.png" class="socb tripadvisor" alt="Check out our Trip Advisor!" id="tripadvisor"></a>
+							<a href="mailto:extremejetskioforlando@gmail.com?Subject=Hello"><img src="image/social-buttons/email-icon-grey.png" class="socb" alt="Email Us!"></a>
+							<a href="tel:407-390-9200" alt="Extreme Jet Ski Phone Number"><img src="image/social-buttons/phone-icon-grey.png" class="socb" alt="Call Us!"></a>
+						</span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+    	<!--nav bar should stay up top, with sold color background, and on top as content scrolls up-->
+		
+		<div id="soca">
+			<span class="soca">
+				<a href="https://www.facebook.com/Extreme-Jet-Ski-of-Orlando-118763888154618/"><img src="image/social-buttons/facebook-logo-grey.png" class="socb" alt="Check out our Facebook!"></a>
+				<a href="https://www.instagram.com/extremejetskioforlando/"><img src="image/social-buttons/instagram-logo-grey.png" class="socb" alt="Check out our Instagram!"></a>
+				<a href="https://www.tripadvisor.com/Attraction_Review-g34352-d3850063-Reviews-Extreme_Jet_Ski_of_Orlando-Kissimmee_Florida.html"><img src="image/social-buttons/trip-advisor-logo-grey.png" class="socb tripadvisor" alt="Check out our Trip Advisor!"></a>	
+				<a href="mailto:extremejetskioforlando@gmail.com?Subject=Hello"><img src="image/social-buttons/email-icon-grey.png" class="socb" alt="Email Us!"></a>
+				<a href="tel:407-390-9200" alt="Extreme Jet Ski Phone Number"><img src="image/social-buttons/phone-icon-grey.png" class="socb" alt="Call Us!"></a>
+			</span>
+		</div>
+	</header>
+	<div class="dirbr">
+		<p></p>
+		<form action="http://maps.google.com/maps" method="get" class="dirform">Enter your starting address:&nbsp;
+			<input name="saddr" type="text"> 
+			<input name="daddr" type="hidden" value="4836 W. Irlo Bronson Hwy, Kissimmee, FL"> 
+			<input type="submit" value="Get Directions">
+			<p></p>
+		</form>
+		<iframe width="900" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;q=4836+W.+Irlo+Bronson+Memorial+Hwy.&amp;ie=UTF8&amp;ll=28.332244,-81.475951&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+	</div>
+	<div>
+		<p class="dirbr2">Located behind the Howard Johnson 
+on W Irlo Bronson Memorial Hwy.<br>
+Come straight to the lake 
+behind the Howard Johnson</p>
+    </div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    	
+    	<!-- Indicators -->
+  		
+  		<ol class="carousel-indicators">
+    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#myCarousel" data-slide-to="1"></li>
+    		<li data-target="#myCarousel" data-slide-to="2"></li>
+  		</ol>
+		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img class="d-block w-100" src="image/howard_johnson_front.png" alt="Front of Howard Johnson">
+		    </div>
+    		<div class="carousel-item">
+      			<img class="d-block w-100" src="image/ejso_front_square_sm.jpg" alt="Extreme Jet Ski of Orlando Facility">
+    		</div>
+    		<div class="carousel-item">
+      			<img class="d-block w-100" src="image/howard_johnson_pool.png" alt="Pool at the Howard Johnson">
+    		</div>
+  		</div>
+  		
+		<!--Can't figure out  how to adjust the carousel...-->  		
+  		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    		<span class="glyphicon glyphicon-chevron-left"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+	  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    		<span class="glyphicon glyphicon-chevron-right"></span>
+	    	<span class="sr-only">Next</span>
+    	</a>
+	</div>
+
+	<footer>
+		<p> <!--Contact Info - About Us… solid color bottom-->
+		Copyright© 2018 <a href="visit.html" class="bvisit">Extreme Jet Ski of Orlando</a> | Web Design by <a href="http://www.exisphere.com" class="exisphere">Exisphere</a>
+<!--make above links and add small Social Buttons below--></p>
+		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/parallax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</footer>
+</body>
+</html>
